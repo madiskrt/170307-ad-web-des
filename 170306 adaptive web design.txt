@@ -22,4 +22,6 @@ class - classification (would contain a list of subclasses for the particular el
 
 id - identification (identifying a specifc element on the page (this is why each id on a page needs to be unique))
 
+microformats - ? e.g. we can enable users to import an event to their calendar or a business card to their address book directly from our web page? I think that’s pretty awesome. (using a tool like Operator or a service like Optimus)
+
 

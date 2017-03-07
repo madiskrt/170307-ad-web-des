@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head><title></title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <style type="text/css">
-	header {background-color: ghostwhite; padding: 20px; border: 1px dotted silver;}
-	footer {background-color: mintcream; padding: 20px; border: 1px dotted silver;}
-	section {background-color: ivory; padding: 20px; margin: 15px; border: 1px dotted silver;}
-	article {background-color: seashell; padding: 20px; margin: 15px; border: 1px dotted silver;}
-	table {margin: 15px; border: 1px dotted silver;}
-	td {border: 1px solid silver;}
+
 </style>
 </head>
 <body>
@@ -28,6 +24,29 @@
 </nav>
 
 </header>
+
+<div id="content">
+
+<section id="event1" class="vevent">
+hCalendar content:
+<h1>Join us for <b class="summary">HTML5 &amp;CSS3</b></h1>
+<p><time class="dtstart" datetime="2011-04-08">8</time>&#8211;<time class="dtend" datetime="2011-04-10">10 April 2011</time></p>
+<p class="location">Gatlinburg, <abbr title="Tennessee">TN</abbr></p>
+<section class="main description">
+<!-- event overview -->
+</section>
+</section>
+
+<section id="aaron-gustafson" class="vcard">
+hCard section:
+<fgure>
+<img class="photo" src="i/aaron-gustafson.jpg" alt=""/>
+</fgure>
+He is <b class="role">Group Manager</b> of the <a class="org" href="http://webstandards.org">Web Standards Project (WaSP)</a>
+<h1 class="fn">Aaron Gustafson</h1>
+<p>… Aaron and his wife, Kelly, own <a class="url" rel="external" href="http://easy-designs. net">Easy! Designs</a> …</p>
+
+</section>
 
 <section>
 <p>Remember: the content itself forms the crucial frst level</p>
@@ -58,7 +77,14 @@ Gatlinburg, <abbr title="Tennessee">TN</abbr>
 	<b>article</b> element was introduced as part of HTML5 and demarcates content that forms an independent part of the document, such as a newspaper article, blog post, or, in our case, a distinct topic
 </article>
 
-<footer>this is footer</footer>
+</div>
+
+<footer>this is footer
+
+<p id="copyright">&copy;2010 Retreats 4 Geeks. All Rights Reserved.</p>
+<p>Retreats 4 Geeks is an <a rel="me" href="http://easy-designs.net/">Easy! Designs</a> venture.</p>
+
+</footer>
 
 </body>
 </html>

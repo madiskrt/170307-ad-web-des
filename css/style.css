@@ -1,0 +1,8 @@
+header {background-color: ghostwhite; padding: 20px; border: 1px dotted silver;}
+footer {background-color: mintcream; padding: 20px; border: 1px dotted silver;}
+section {background-color: ivory; padding: 20px; margin: 15px; border: 1px dotted silver;}
+article {background-color: seashell; padding: 20px; margin: 15px; border: 1px dotted silver;}
+#content {background-color: honeydew; padding: 10px; border: 1px dotted silver; margin: 10px 0px;}
+table {margin: 15px; border: 1px dotted silver;}
+td {border: 1px solid silver;}
+#event1 {background-color: azure; padding: 20px; border: 1px dotted silver;}
