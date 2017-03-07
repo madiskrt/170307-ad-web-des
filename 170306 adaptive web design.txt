@@ -18,3 +18,8 @@ we have no way of knowing a particular user’s needs when they arrive on our si
 
 CHAPTER 2: PROGRESSIVE ENHANCEMENT WITH MARKUP
 
+class - classification (would contain a list of subclasses for the particular element they were applied to)
+
+id - identification (identifying a specifc element on the page (this is why each id on a page needs to be unique))
+
+

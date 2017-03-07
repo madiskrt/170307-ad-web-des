@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+<style type="text/css">
+	header {background-color: ghostwhite; padding: 20px; border: 1px dotted silver;}
+	footer {background-color: mintcream; padding: 20px; border: 1px dotted silver;}
+	section {background-color: ivory; padding: 20px; margin: 15px; border: 1px dotted silver;}
+	article {background-color: seashell; padding: 20px; margin: 15px; border: 1px dotted silver;}
+	table {margin: 15px; border: 1px dotted silver;}
+	td {border: 1px solid silver;}
+</style>
+</head>
+<body>
+<header><b>this is a header</b> - is used to demarcate any content that is summarily important to a page or section of a page.
+<hgroup>It can be used to encapsulate headings or heading groups (contained in the new hgroup element), relevant navigational aids, and introductory content.</hgroup>
+<hgroup>Header makes a perfect container for the title of our page and the list of anchors to each article within the page</hgroup>
+<h1><img src="img/logo.png" alt="alt text"/></h1>
+
+<nav>
+<ol>
+<li><a href="#details"  title="Find out what KBthis retreat is all about">Details</a></li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#instructors">Instructors</a></li>
+<li><a href="#lodging">Lodging</a></li>
+<li><a href="#location">Location</a></li>
+<li><a href="#article">Article</a></li>
+</ol>
+</nav>
+
+</header>
+
+<section>
+<p>Remember: the content itself forms the crucial frst level</p>
+Gatlinburg, <abbr title="Tennessee">TN</abbr>
+
+<table>
+	<tr>
+		<td>mintcream</td>
+		<td>F5 FF FA</td>
+	</tr>
+	<tr>
+		<td>ivory</td>
+		<td>FF FF F0</td>
+	</tr>
+</table>
+</section>
+
+<section>
+<a href="http://maps.google.com/…" title="View Gatlinburg, Tennessee on Google Maps">
+<img src="http://maps.google.com/…" alt="A map showing the location of Gatlinburg, Tennessee"/></a>
+</section>
+
+<article id="details">
+	id - In practice, this identifer would be used as a reference point for style rules (#details { … }), scripts (document.getElementById(‘details’)), and anchors (<a href=" #details"></a>).
+</article>
+
+<article id="article">
+	<b>article</b> element was introduced as part of HTML5 and demarcates content that forms an independent part of the document, such as a newspaper article, blog post, or, in our case, a distinct topic
+</article>
+
+<footer>this is footer</footer>
+
+</body>
+</html>
