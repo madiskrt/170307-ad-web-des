@@ -1,0 +1,20 @@
+#170306 adaptive web design
+
+THINK OF THE USER, NOT THE BROWSER:
+Progressive enhancement - how to approach web design
+
+Craft experiences that serve your users by giving them access to content without technol restrictions.
+
+Fault tolerance, “forward compatible”
+Graceful degradation - focused on making sure our site worked in modern browsers.
+
+JavaScript must be written such that they can either recover from an error (perhaps by trying an alternate method of execution).
+
+Progressive enhancement -  web technologies could be applied as layers that would build upon one another. your core focus is he content and everything builds upon that.
+
+we have no way of knowing a particular user’s needs when they arrive on our site. Instead, we must rise to meet those needs
+
+“The meaning is in the content of the text and not in the typeface.” WIM CROUWEL
+
+CHAPTER 2: PROGRESSIVE ENHANCEMENT WITH MARKUP
+
