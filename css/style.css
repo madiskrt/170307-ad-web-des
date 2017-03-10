@@ -1,4 +1,14 @@
-header {background-color: ghostwhite; padding: 20px; border: 1px dotted silver;}
+header {
+	background-color: ghostwhite;
+	background-color: rgb(137, 224, 160);
+	background-color: rgba(180, 246, 248, .23); 
+	padding: 20px; 
+	border: 1px dotted silver;}
+
+html[lang] p {
+	color: red; font-weight: bold;
+}
+
 footer {background-color: mintcream; padding: 20px; border: 1px dotted silver;}
 section {background-color: ivory; padding: 20px; margin: 15px; border: 1px dotted silver;}
 article {background-color: seashell; padding: 20px; margin: 15px; border: 1px dotted silver;}
