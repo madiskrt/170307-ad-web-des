@@ -9,6 +9,21 @@ html[lang] p {
 	color: red; font-weight: bold;
 }
 
+/* =Color */
+a:link, a:visited {
+color: rgb(180, 49, 25);
+}
+a:hover {
+color: rgb(235, 123, 35);
+}
+/* ... */
+/* =Effects */
+@media screen {
+	a {
+		transition-duration: .5s;
+	}
+}
+
 footer {background-color: mintcream; padding: 20px; border: 1px dotted silver;}
 section {background-color: ivory; padding: 20px; margin: 15px; border: 1px dotted silver;}
 article {background-color: seashell; padding: 20px; margin: 15px; border: 1px dotted silver;}
